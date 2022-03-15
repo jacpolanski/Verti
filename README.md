@@ -37,6 +37,7 @@
 ## Setup
 - download or clone repository / `git clone repo_address`
 - install dependencies / `npm install`
+- start by `gulp`
 
 
 ## Project Status
