@@ -47,4 +47,4 @@ Project is: _no longer being worked on_. Assumed learning taks completed.
 Plenty :)
 
 ## Contact
-Created by [jac.polanski](www.linkedin.com/in/polanski-jacek) - feel free to contact me!
+Created by [jac.polanski](https://www.linkedin.com/in/polanski-jacek) - feel free to contact me!
