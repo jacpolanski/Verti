@@ -9,12 +9,12 @@ const browserSync = require("browser-sync").create();
 
 function compileSass(done) {
   gulp
-      .src(entryPath + "/scss/main.scss")
-      .pipe(sourcemaps.init())
-      .pipe(sass({ outputStyle: "expanded" }).on("error", sass.logError))
-      .pipe(autoprefixer())
-      .pipe(sourcemaps.write("."))
-      .pipe(gulp.dest(entryPath + "/css"));
+    .src(entryPath + "/scss/main.scss")
+    .pipe(sourcemaps.init())
+    .pipe(sass({ outputStyle: "expanded" }).on("error", sass.logError))
+    .pipe(autoprefixer())
+    .pipe(sourcemaps.write("."))
+    .pipe(gulp.dest(entryPath + "/css"));
 
   done();
 }

@@ -5,38 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a40088f9-ce2c-49d5-bc92-4c522350fd70" name="Changes" comment="Project files">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Verti.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/pic01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/pic02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/pic03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/pic04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/pic05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/pic06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/pic07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_all.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_articles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_banner.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_tumbnails.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/global/_generic.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/global/_grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/global/_reset.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/variables/_breakpoints.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/variables/_colors.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/variables/_general.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,11 +29,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Wycieczki_w_kosmos" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -87,6 +61,7 @@
       <workItem from="1643273810964" duration="980000" />
       <workItem from="1644847247812" duration="52000" />
       <workItem from="1644937914816" duration="23000" />
+      <workItem from="1647331530780" duration="691000" />
     </task>
     <task id="LOCAL-00001" summary="Finished to tablet responsiveness">
       <created>1643273923535</created>
@@ -95,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643273923535</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Project files">
+      <created>1647331687234</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1647331687234</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,5 +98,9 @@
     <MESSAGE value="Finished to tablet responsiveness" />
     <MESSAGE value="Project files" />
     <option name="LAST_COMMIT_MESSAGE" value="Project files" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

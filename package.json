@@ -18,6 +18,7 @@
   ],
   "dependencies": {
     "css-reset-and-normalize-sass": "^0.1.2",
+    "prettier": "^2.5.1",
     "sass-reset": "^1.0.4"
   }
 }
