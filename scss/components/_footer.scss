@@ -1,0 +1,87 @@
+@use "sass:math";
+
+$columns: 12;
+$column-base-width: math.div(100%, $columns);
+
+.row {
+  color: #444444;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3rem;
+
+  @include tablet {
+    margin: 0;
+  }
+
+  [class*='col-'] {
+    min-height: 1px;
+    width: $column-base-width;
+  }
+
+  @for $i from 1 through $columns {
+    .col-#{$i} {
+      width: $column-base-width * $i;
+    }
+  }
+
+  .widget {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 2rem;
+    margin-bottom: 1rem;
+
+    @include tablet{
+      border: none;
+    }
+
+    h3 {
+      color: black;
+      font-size: 1.25rem;
+      font-weight: 800;
+      margin: 1rem 0;
+    }
+  }
+
+  li {
+    font-size: .9rem;
+  }
+
+  .contact ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+
+    span {
+      display: none;
+    }
+
+    li {
+      color: $main-background-color;
+      width: 50px;
+      height: 50px;
+      background-color: #222222;
+      border-radius: 10px;
+      text-align: center;
+      padding: 10px;
+
+      @include tablet {
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
+  @include tablet {
+    .copyright {
+      text-align: center;
+
+      li {
+        display: inline-block;
+        text-align: center;
+        padding: 0 1.5rem;
+      }
+
+      li:first-of-type {
+        border-right: 1px solid #ccc;;
+      }
+    }
+  }
+}

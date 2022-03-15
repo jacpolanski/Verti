@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a40088f9-ce2c-49d5-bc92-4c522350fd70" name="Changes" comment="Project files">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Verti.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/pic01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/pic02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/pic03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/pic04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/pic05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/pic06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/pic07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/components/_all.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/components/_articles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/components/_banner.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/components/_button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/components/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/components/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/components/_tumbnails.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/global/_generic.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/global/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/global/_reset.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/variables/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/variables/_colors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/variables/_general.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="24H3Tf35guTeH36HpjIabZsgACm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Wycieczki_w_kosmos" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Verti/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a40088f9-ce2c-49d5-bc92-4c522350fd70" name="Changes" comment="" />
+      <created>1643273694689</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643273694689</updated>
+      <workItem from="1643273696597" duration="4000" />
+      <workItem from="1643273810964" duration="980000" />
+      <workItem from="1644847247812" duration="52000" />
+      <workItem from="1644937914816" duration="23000" />
+    </task>
+    <task id="LOCAL-00001" summary="Finished to tablet responsiveness">
+      <created>1643273923535</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1643273923535</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Finished to tablet responsiveness" />
+    <MESSAGE value="Project files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project files" />
+  </component>
+</project>

@@ -1,0 +1,40 @@
+button.button {
+  appearance: none;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  padding: 24px 48px;
+  border-radius: 12px;
+  font-size: 1.25rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include tablet {
+    flex-direction: row-reverse;
+  }
+
+  i {
+    padding-right: 12px;
+
+    @include tablet {
+      padding-right: initial;
+      padding-left: 12px;
+    }
+  }
+
+  &--active {
+    margin: 2rem 0;
+    background-color: $active-button-background-color;
+    color: white;
+    width: 100%;
+
+    @include tablet {
+      width: 50%;
+    }
+  }
+  &_tumbnails {
+    min-width: 313px;
+  }
+}

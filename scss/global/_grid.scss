@@ -1,0 +1,23 @@
+@use "sass:math";
+
+.container {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+
+    [class*='col-'] {
+      min-height: 1px;
+      width: 100%;
+    }
+
+    @include tablet {
+      @for $i from 1 through $columns {
+        .col-#{$i} {
+          width: $column-base-width * $i;
+          padding: 0 12px;
+        }
+      }
+    }
+  }
+}
+

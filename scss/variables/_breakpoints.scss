@@ -1,0 +1,21 @@
+$tablet-start: 768px;
+$tablet-end: 1439px;
+$desktop-start: 1440px;
+
+@mixin tablet {
+  @media only screen and (min-width: $tablet-start) {
+    @content
+  }
+};
+
+@mixin tablet-only {
+  @media only screen and (min-width: $tablet-start) and (max-width: $tablet-end) {
+    @content
+  }
+};
+
+@mixin desktop {
+  @media only screen and (min-width: $desktop-start) {
+    @content
+  }
+};

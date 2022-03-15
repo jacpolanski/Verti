@@ -1,0 +1,109 @@
+header.container {
+  $header-size: 12px;
+  $header-grey: #b8b8b8;
+  $menu-width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: calc($header-size * 3) auto;
+
+  @include tablet {
+    justify-content: space-between;
+  }
+
+  .header__logo {
+    font-family: 'Oleo Script', cursive;
+    background: $logo-background-color;
+    color: white;
+    padding: calc($header-size / 2) $header-size;
+    border-radius: calc($header-size / 2);
+    font-size: $header-size*3;
+  }
+
+  input.header__nav__button {
+    appearance: none;
+    position: fixed;
+    left: $header-size;
+    top: $header-size;
+    font-size: calc($header-size * 2);
+    padding: $header-size;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(120, 120, 120, 0.5);
+    border-radius: $header-size;
+    color: white;
+
+    @include tablet {
+      display: none;
+    }
+
+    &:checked {
+      left: $menu-width + $header-size;
+
+      ~ nav.header__nav {
+        left: 0;
+      }
+    }
+  }
+
+  nav.header__nav {
+    width: $menu-width;
+    background-color: white;
+    position: fixed;
+    left: -$menu-width;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    overflow-y: auto;
+    border-right: 5px solid $header-grey;
+
+    @include tablet {
+      position: static;
+      background-color: initial;
+      overflow: initial;
+      border: none;
+      flex-grow: 1;
+    }
+
+    ul.menu {
+      $menu-item-border: 1px solid $header-grey;
+      $menu-spacing: $header-size * 2;
+
+      @include tablet {
+        text-align: right;
+      }
+
+      li {
+        font-weight: bold;
+        padding: $menu-spacing;
+        border-bottom: $menu-item-border;
+
+        @include tablet {
+          border: none;
+          display: inline-block;
+          padding: $header-size;
+        }
+
+        &:last-child {
+          border: none;
+        }
+      }
+
+      ul.submenu {
+        border-top: $menu-item-border;
+        margin-top: $menu-spacing;
+        margin-bottom: -$menu-spacing;
+
+        @include tablet {
+          display: none;
+        }
+
+        li {
+          font-weight: normal;
+          color: $header-grey;
+        }
+      }
+    }
+  }
+}

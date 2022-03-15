@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  background-color: $main-background-color;
+  color: $main-text-color;
+}
+
+.container {
+  $container-spacing: 12px;
+
+  width: calc(100% - (2 * $container-spacing));
+  max-width: 990px;
+  margin: 0 $container-spacing;
+  padding: 0 $container-spacing;
+  line-height: 2rem;
+
+  @include tablet {
+    width: 100%;
+    margin: 0 auto;
+  }
+}

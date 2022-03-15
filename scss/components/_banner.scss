@@ -1,0 +1,57 @@
+section.banner.container {
+  background: white;
+  border-radius: 12px;
+  padding: 12px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @include tablet {
+    flex-direction: row;
+  }
+
+  .texts {
+    margin-bottom: 24px;
+
+    @include tablet {
+      flex: 2 0 0;
+    }
+
+    span {
+      display: block;
+      text-align: center;
+
+      @include tablet {
+        text-align: left;
+      }
+
+      &.title {
+        font-weight: bold;
+        font-size: 36px;
+        padding: 24px;
+      }
+
+      &.content {
+        color: #696969;
+        font-size: 24px;
+        padding: 12px 24px;
+      }
+    }
+  }
+
+  .buttons {
+    width: 100%;
+
+    @include tablet {
+      width: auto;
+      flex: 1 0 0;
+    }
+
+    .button {
+      width: 100%;
+      margin-bottom: 12px;
+    }
+  }
+}
