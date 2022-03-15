@@ -8,13 +8,10 @@
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
-* [Features](#features)
 * [Screenshots](#screenshots)
 * [Setup](#setup)
-* [Usage](#usage)
 * [Project Status](#project-status)
 * [Room for Improvement](#room-for-improvement)
-* [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
 <!-- * [License](#license) -->
 
@@ -40,12 +37,6 @@
 ## Setup
 - download or clone repository / `git clone repo_address`
 - install dependencies / `npm install`
-
-## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
-
-``
 
 
 ## Project Status
