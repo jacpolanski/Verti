@@ -25,7 +25,7 @@
 - HTML
 - SCSS
 
-
+ 
 ## Screenshots
 ![Example screenshot](./screenshots/1.png)
 ![Example screenshot](./screenshots/2.png)
